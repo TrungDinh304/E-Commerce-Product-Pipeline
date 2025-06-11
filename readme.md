@@ -109,6 +109,8 @@ Xây dựng một hệ thống lưu trữ, xử lý và truy vấn dữ liệu c
     - Khi crawl bằng selenium: gặp khó khắn khi liên tục xuất hiện recapcha bằng ảnh (đã research giải pháp để xử lý tự động nhưng hiện chưa tìm thấy/chưa có tool free). -> giải pháp hiện tại (20/5/2025) là: khi gặp recapcha thì pause đến khi nào giải recapcha thì cho hệ thống tiếp tục crawl.
 
   - 30/5/2025: Có thể là do app có cập nhật nên các css selector bị thay đổi nên phải code lại hết code craw product detail.
+  - 1/6/2025: Crawl description lấy inter HTML content chuyển qua md chưa được -> tạm ngưng crawl tìm hiểu Minio concept và lưu trữ thử Bronze Landing Stage.
+  - 5/6/2025: sắp bảo vệ đồ án nên tạm drop để all in vào đồ án tốt nghiệp.
   
 
 
