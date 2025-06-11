@@ -2,7 +2,7 @@
 
 ### 1. Mục tiêu tổng thể
 
-Xây dựng một hệ thống lưu trữ, xử lý và truy vấn dữ liệu crawl về **sản phẩm** và **shop** nhằm phục vụ:
+Xây dựng một hệ thống lưu trữ, xử lý và truy vấn dữ liệu crawl về **sản phẩm** và **shop** trên một số sàn thương mại điện tử nhằm phục vụ:
 
 * Phát triển **chatbot hỗ trợ khách hàng/giải đáp sản phẩm**
 * Phát triển **hệ thống gợi ý sản phẩm** dựa trên đặc trưng sản phẩm và shop
@@ -103,11 +103,13 @@ Xây dựng một hệ thống lưu trữ, xử lý và truy vấn dữ liệu c
 
 ## 4. Quá trình làm.
 ### 1. Phase 1: Crawl data từ tiki và lazada.
-- Khó khăn: (17/5/2025)
+- Khó khăn: 
+  - 17/5/2025:
     - Không thể truy được api từ lazada -> crawl bằng cách parse HTML.
     - Khi crawl bằng selenium: gặp khó khắn khi liên tục xuất hiện recapcha bằng ảnh (đã research giải pháp để xử lý tự động nhưng hiện chưa tìm thấy/chưa có tool free). -> giải pháp hiện tại (20/5/2025) là: khi gặp recapcha thì pause đến khi nào giải recapcha thì cho hệ thống tiếp tục crawl.
 
-- 
+  - 30/5/2025: Có thể là do app có cập nhật nên các css selector bị thay đổi nên phải code lại hết code craw product detail.
+  
 
 
 

@@ -11,6 +11,7 @@ from fake_useragent import UserAgent
 from selenium.webdriver.edge.options import Options
 import random
 import time
+import product_detail_crawler
 
 def get_product_links(driver, category_name):
     try:
